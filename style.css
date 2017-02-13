@@ -1,0 +1,10 @@
+body {background-image: url("http://www.planwallpaper.com/static/images/6935544-blue-backgrounds-hd.jpg");
+}
+
+th:hover {
+	color: blue;
+}
+
+a:visited {
+	color: white;
+}
