@@ -8,3 +8,7 @@ th:hover {
 a:visited {
 	color: white;
 }
+
+td, th {
+	border: 1px solid black;
+}
