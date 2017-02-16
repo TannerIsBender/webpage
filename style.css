@@ -1,8 +1,34 @@
-body {background-image: url("http://www.planwallpaper.com/static/images/6935544-blue-backgrounds-hd.jpg");
+body {
+	background-image: url("http://www.planwallpaper.com/static/images/6935544-blue-backgrounds-hd.jpg");
+}
+
+h1 {
+    -webkit-animation-name: anim;
+    -webkit-animation-duration: 10s;
+    animation-name: anim;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes anim {
+    from {color: red;}
+    to {color: blue;}
+}
+
+@keyframes anim {
+    from {color: red;}
+    to {color: blue;}
 }
 
 th:hover {
 	color: blue;
+}
+
+th:first-of-type {
+	border: 2px dashed red;
+}
+
+tr:nth-child(even) {
+	background-color: gray;
 }
 
 a:visited {
@@ -11,4 +37,14 @@ a:visited {
 
 td, th {
 	border: 1px solid black;
+	font-size: 20px;
+}
+
+p {
+	vertical-align: middle;
+	text-align: justify;
+	border: 1px solid blue;
+	font-family: Gill Sans Extrabold, sans-serif;
+	display: inline;
+	font-weight: bold;
 }
